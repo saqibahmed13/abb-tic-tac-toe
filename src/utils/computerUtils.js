@@ -1,7 +1,6 @@
 
 import { checkWinner } from "./gameUtils";
 
-// Get all empty cells
 export const getAvailableMoves = (board) => {
   return board
     .map((cell, index) => (cell === "" ? index : null))
